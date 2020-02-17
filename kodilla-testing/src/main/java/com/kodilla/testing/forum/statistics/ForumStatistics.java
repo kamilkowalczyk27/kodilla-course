@@ -9,14 +9,7 @@ public class ForumStatistics {
     private double commentsAveragePerUser;
     private double commentsAveragePerPost;
 
-    public ForumStatistics(int usersQuantity, int postsQuantity, int commentsQuantity, double postsAveragePerUser, double commentsAveragePerUser, double commentsAveragePerPost) {
-        this.usersQuantity = usersQuantity;
-        this.postsQuantity = postsQuantity;
-        this.commentsQuantity = commentsQuantity;
-        this.postsAveragePerUser = postsAveragePerUser;
-        this.commentsAveragePerUser = commentsAveragePerUser;
-        this.commentsAveragePerPost = commentsAveragePerPost;
-    }
+
 
     public int getUsersQuantity() {
         return usersQuantity;
