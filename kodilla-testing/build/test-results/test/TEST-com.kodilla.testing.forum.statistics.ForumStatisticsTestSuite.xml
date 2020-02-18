@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-18T18:32:17" hostname="Apples-MacBook-Pro.local" time="0.129">
+<testsuite name="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-18T18:48:08" hostname="Apples-MacBook-Pro.local" time="0.128">
   <properties/>
-  <testcase name="testCalculateAverageStatisticsWithThousandPosts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.121"/>
+  <testcase name="testCalculateAverageStatisticsWithThousandPosts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.122"/>
   <testcase name="testCalculateAverageStatisticsWithZeroPosts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
-  <testcase name="testCalculateAverageStatisticsWithZeroUsers" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testCalculateAverageStatisticsWithZeroUsers" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.0"/>
   <testcase name="testCalculateAverageStatisticsWithHundredUsers" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
-  <testcase name="testCalculateAverageStatisticsMoreCommentsThanPosts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
-  <testcase name="testCalculateAverageStatisticsWithZeroComments" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testCalculateAverageStatisticsMoreCommentsThanPosts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.0"/>
+  <testcase name="testCalculateAverageStatisticsWithZeroComments" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.0"/>
   <testcase name="testCalculateAverageStatisticsLessCommentsThanPosts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

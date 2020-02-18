@@ -5,9 +5,9 @@ public class ForumStatistics {
     private int usersQuantity;
     private int postsQuantity;
     private int commentsQuantity;
-    private int postsAveragePerUser;
-    private int commentsAveragePerUser;
-    private int commentsAveragePerPost;
+    private double postsAveragePerUser;
+    private double commentsAveragePerUser;
+    private double commentsAveragePerPost;
 
     public int getUsersQuantity() {
         return usersQuantity;
@@ -21,15 +21,15 @@ public class ForumStatistics {
         return commentsQuantity;
     }
 
-    public int getPostsAveragePerUser() {
+    public double getPostsAveragePerUser() {
         return postsAveragePerUser;
     }
 
-    public int getCommentsAveragePerUser() {
+    public double getCommentsAveragePerUser() {
         return commentsAveragePerUser;
     }
 
-    public int getCommentsAveragePerPost() {
+    public double getCommentsAveragePerPost() {
         return commentsAveragePerPost;
     }
 
@@ -42,26 +42,26 @@ public class ForumStatistics {
         commentsAveragePerPost = calculateCommentsAveragePerPost();
     }
 
-    private int calculatePostsAveragePerUser() {
+    private double calculatePostsAveragePerUser() {
 
         if(usersQuantity>0){
-            return (int)postsQuantity/usersQuantity;
+            return (double)postsQuantity/usersQuantity;
         } else {
             return 0;
         }
     }
 
-    private int calculateCommentsAveragePerUser() {
+    private double calculateCommentsAveragePerUser() {
         if(usersQuantity>0){
-            return (int) commentsQuantity/usersQuantity;
+            return (double) commentsQuantity/usersQuantity;
         } else {
             return 0;
         }
     }
 
-    private int calculateCommentsAveragePerPost() {
+    private double calculateCommentsAveragePerPost() {
         if(postsQuantity>0){
-            return (int)commentsQuantity/postsQuantity;
+            return (double)commentsQuantity/postsQuantity;
         } else {
             return 0;
         }
