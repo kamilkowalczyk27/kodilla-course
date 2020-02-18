@@ -12,6 +12,5 @@ repositories {
 }
 
 dependencies {
-    testCompile('junit:junit:4.12')
-    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
+
 }
