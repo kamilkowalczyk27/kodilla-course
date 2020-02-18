@@ -5,11 +5,9 @@ public class ForumStatistics {
     private int usersQuantity;
     private int postsQuantity;
     private int commentsQuantity;
-    private double postsAveragePerUser;
-    private double commentsAveragePerUser;
-    private double commentsAveragePerPost;
-
-
+    private int postsAveragePerUser;
+    private int commentsAveragePerUser;
+    private int commentsAveragePerPost;
 
     public int getUsersQuantity() {
         return usersQuantity;
@@ -23,15 +21,15 @@ public class ForumStatistics {
         return commentsQuantity;
     }
 
-    public double getPostsAveragePerUser() {
+    public int getPostsAveragePerUser() {
         return postsAveragePerUser;
     }
 
-    public double getCommentsAveragePerUser() {
+    public int getCommentsAveragePerUser() {
         return commentsAveragePerUser;
     }
 
-    public double getCommentsAveragePerPost() {
+    public int getCommentsAveragePerPost() {
         return commentsAveragePerPost;
     }
 
@@ -44,26 +42,26 @@ public class ForumStatistics {
         commentsAveragePerPost = calculateCommentsAveragePerPost();
     }
 
-    private double calculatePostsAveragePerUser() {
+    private int calculatePostsAveragePerUser() {
 
         if(usersQuantity>0){
-            return (double)postsQuantity/usersQuantity;
+            return (int)postsQuantity/usersQuantity;
         } else {
             return 0;
         }
     }
 
-    private double calculateCommentsAveragePerUser() {
+    private int calculateCommentsAveragePerUser() {
         if(usersQuantity>0){
-            return (double)commentsQuantity/usersQuantity;
+            return (int) commentsQuantity/usersQuantity;
         } else {
             return 0;
         }
     }
 
-    private double calculateCommentsAveragePerPost() {
+    private int calculateCommentsAveragePerPost() {
         if(postsQuantity>0){
-            return (double)commentsQuantity/postsQuantity;
+            return (int)commentsQuantity/postsQuantity;
         } else {
             return 0;
         }
