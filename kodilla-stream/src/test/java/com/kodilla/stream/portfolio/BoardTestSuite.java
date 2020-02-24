@@ -170,7 +170,7 @@ public class BoardTestSuite {
                 .filter(inProgressTasks1::contains)
                 .flatMap(tl -> tl.getTasks().stream())
                 .map(t -> t.getDeadline())
-                .map(d->{                  // pokazuje mi deadline w trakcie Streamu, nie wpływa to na kod Streamu , później przechodzę do koniczenia Streamu
+                .map(d->{
                     System.out.println(d);
                     return d;
                 })
