@@ -3,23 +3,24 @@ package com.kodilla.exception.test;
 public class RouteNotFoundException extends Exception {
 
     public static void main(String[] args) {
-        Flight warsawLondon = new Flight("Warsaw", "London");
-        Flight romeParis = new Flight("Rome", "Paris");
+        Flight airFlight = new Flight("Paris", "Rome");
+        Flight airFlight1 = new Flight("London", "Rome");
+
 
         FlightLogic flightLogic = new FlightLogic();
 
         try{
-            boolean existWarsawLondon = flightLogic.findFlight(warsawLondon);
-            System.out.println("Flight Warsaw - London is good" + existWarsawLondon);
+            flightLogic.findFlight(airFlight);
+            System.out.println(airFlight + " is good");
         }catch(RouteNotFoundException e){
-            System.out.println("Flight Warsaw - London is not good");
+            System.out.println(airFlight + " is not good");
         }
 
-        try {
-            boolean existRomeParis = flightLogic.findFlight(romeParis);
-            System.out.println("Flight Rome - Paris is good" + existRomeParis);
+        try{
+            flightLogic.findFlight(airFlight1);
+            System.out.println(airFlight1 + " is good");
         }catch(RouteNotFoundException e){
-            System.out.println("Flight Rome - Paris is not good");
+            System.out.println(airFlight1 + " is not good");
         }
     }
 }
