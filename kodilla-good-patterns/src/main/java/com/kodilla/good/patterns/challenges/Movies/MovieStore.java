@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.challenges;
+package com.kodilla.good.patterns.challenges.Movies;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -29,3 +29,4 @@ public class MovieStore {
         return booksTitlesWithTranslations;
     }
 }
+
