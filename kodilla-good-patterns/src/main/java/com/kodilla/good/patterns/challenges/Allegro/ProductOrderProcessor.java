@@ -17,7 +17,7 @@ public class ProductOrderProcessor {
             informationService.inform(productOrderRequest.getUser());
             productOrderRepository.createProductOrder(productOrderRequest.getUser(), productOrderRequest.getProduct(), productOrderRequest.getQuantity());
         } else {
-            System.out.println("You failed buy a product. Try again.");
+            System.out.println("You failed to buy a product. Try again.");
         } return new ProductOrderDTO(productOrderRequest.getUser(), productOrderRequest.getProduct(), productOrderRequest.getQuantity(), isSold);
     }
 }
