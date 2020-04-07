@@ -9,7 +9,7 @@ public class Application {
         System.out.println(flightProcessorToCity.flightsToCity("Wroclaw"));
 
         FlightProcessor flightProcessorThroughCity = new FlightProcessor();
-        System.out.println(flightProcessorThroughCity.flightsThroughCity("London", "Rome", "Warsaw"));
+        System.out.println(flightProcessorThroughCity.flightsThroughCity("London", "Warsaw", "Berlin"));
 
     }
 }
