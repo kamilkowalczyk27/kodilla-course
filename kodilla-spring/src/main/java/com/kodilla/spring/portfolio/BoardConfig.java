@@ -39,7 +39,7 @@ public class BoardConfig {
     }
 
     @Bean
-    public Board getBoard() {
+    public Board getBoard(TaskList toDoList, TaskList inProgressList, TaskList doneList) {
         return new Board(toDoList, inProgressList, doneList);
     }
 
