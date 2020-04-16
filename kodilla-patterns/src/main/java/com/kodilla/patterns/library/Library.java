@@ -43,5 +43,4 @@ public final class Library extends Prototype{
             clonedLibrary.books.add(clonedBook);
         } return clonedLibrary;
     }
-
 }
