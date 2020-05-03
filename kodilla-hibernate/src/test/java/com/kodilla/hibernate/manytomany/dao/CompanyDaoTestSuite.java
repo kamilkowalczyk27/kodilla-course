@@ -1,6 +1,7 @@
 package com.kodilla.hibernate.manytomany.dao;
 
 import com.kodilla.hibernate.mamytomany.dao.CompanyDao;
+import com.kodilla.hibernate.mamytomany.dao.EmployeeDao;
 import com.kodilla.hibernate.manytomany.Company;
 import com.kodilla.hibernate.manytomany.Employee;
 import org.junit.Assert;
@@ -9,15 +10,18 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class CompanyDaoTestSuite {
     @Autowired
     CompanyDao companyDao;
+    @Autowired
+    EmployeeDao employeeDao;
 
     @Test
-    public void testSaveManyToMany(){
+    public void testSaveManyToMany() {
         //Given
         Employee johnSmith = new Employee("John", "Smith");
         Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
@@ -61,4 +65,29 @@ public class CompanyDaoTestSuite {
         //    //do nothing
         //}
     }
+
+    @Test
+    public void testSearchEmployeeAndSearchCompany() {
+
+        //Given
+        Employee johnSmith = new Employee("John", "Smith");
+        Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
+        Employee lindaKovalsky = new Employee("Linda", "Kovalsky");
+
+        Company softwareMachine = new Company("Software Machine");
+        Company dataMaesters = new Company("Data Maesters");
+        Company greyMatter = new Company("Grey Matter");
+
+        //When
+        List<Employee> employeeLastName = employeeDao.searchEmployee("Smith");
+        List<Company> companyName = companyDao.searchCompany("Gre");
+
+        //Then
+        Assert.assertEquals(1, employeeLastName.size());
+        Assert.assertEquals(1, companyName.size());
+    }
 }
+
+
+
+
