@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005e6255-9832-4379-8ff6-54b58d2dc910" name="Default Changelist" comment="" />
+    <list default="true" id="005e6255-9832-4379-8ff6-54b58d2dc910" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,17 +21,191 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/kodilla-spring-web">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XcnQRSBCkDv4VoYMeARxC1NxSP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.good.patterns.challenges.Food2Door" />
+      <recent name="com.kodilla.good.patterns.challenges.Allegro" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave">
+    <configuration name="CompanyDaoTestSuite.testSaveManyToMany" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testSaveManyToMany&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-hibernate:cleanTest" />
+            <option value=":kodilla-hibernate:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CompanyDaoTestSuite.testSearchEmployeeAndSearchCompany" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testSearchEmployeeAndSearchCompany&quot; --info" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-hibernate:cleanTest" />
+            <option value=":kodilla-hibernate:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvoiceDaoTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-hibernate:cleanTest" />
+            <option value=":kodilla-hibernate:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvoiceDaoTestSuite.testInvoiceDaoSave" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite.testInvoiceDaoSave&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-hibernate:cleanTest" />
+            <option value=":kodilla-hibernate:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskListDaoTestSuite.testNamedQueries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.tasklist.dao.TaskListDaoTestSuite.testNamedQueries&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-hibernate:cleanTest" />
+            <option value=":kodilla-hibernate:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KodillaSpringWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kodilla-spring-web.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.web.KodillaSpringWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kodilla-course.kodilla-spring.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.SpringRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave" />
+        <item itemvalue="Gradle.CompanyDaoTestSuite.testSearchEmployeeAndSearchCompany" />
+        <item itemvalue="Gradle.CompanyDaoTestSuite.testSaveManyToMany" />
+        <item itemvalue="Gradle.TaskListDaoTestSuite.testNamedQueries" />
+        <item itemvalue="Gradle.InvoiceDaoTestSuite" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,7 +217,95 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581354233738</updated>
-      <workItem from="1581354235725" duration="384000" />
+      <workItem from="1581354235725" duration="1775000" />
+      <workItem from="1581356311244" duration="35000" />
+      <workItem from="1581356349112" duration="29000" />
+      <workItem from="1581451838826" duration="394000" />
+      <workItem from="1581524170966" duration="3275000" />
+      <workItem from="1581534119093" duration="39000" />
+      <workItem from="1581691133897" duration="3655000" />
+      <workItem from="1581763606711" duration="2460000" />
+      <workItem from="1581767586424" duration="10980000" />
+      <workItem from="1581790220451" duration="235000" />
+      <workItem from="1581847952050" duration="16500000" />
+      <workItem from="1581887609692" duration="13000" />
+      <workItem from="1581958594139" duration="2547000" />
+      <workItem from="1581969694042" duration="1787000" />
+      <workItem from="1582037579808" duration="8902000" />
+      <workItem from="1582048262472" duration="643000" />
+      <workItem from="1582048929239" duration="2890000" />
+      <workItem from="1582059499368" duration="2325000" />
+      <workItem from="1582129101324" duration="2418000" />
+      <workItem from="1582141308317" duration="3106000" />
+      <workItem from="1582210330921" duration="3608000" />
+      <workItem from="1582226768211" duration="351000" />
+      <workItem from="1582313550512" duration="6619000" />
+      <workItem from="1582359585101" duration="1516000" />
+      <workItem from="1582390399445" duration="722000" />
+      <workItem from="1582474459710" duration="4165000" />
+      <workItem from="1582481659076" duration="115000" />
+      <workItem from="1582562240295" duration="5591000" />
+      <workItem from="1582740969643" duration="5093000" />
+      <workItem from="1582817560555" duration="1735000" />
+      <workItem from="1582978593219" duration="32000" />
+      <workItem from="1583052867275" duration="4937000" />
+      <workItem from="1583077278133" duration="6411000" />
+      <workItem from="1583085280085" duration="21000" />
+      <workItem from="1583264215921" duration="4000" />
+      <workItem from="1583264233395" duration="3000" />
+      <workItem from="1583431884640" duration="31000" />
+      <workItem from="1585668649003" duration="17000" />
+      <workItem from="1585753500552" duration="2276000" />
+      <workItem from="1585919543148" duration="778000" />
+      <workItem from="1586003185548" duration="15977000" />
+      <workItem from="1586115883112" duration="14000" />
+      <workItem from="1586116729348" duration="40000" />
+      <workItem from="1586191882401" duration="2982000" />
+      <workItem from="1586196885312" duration="22000" />
+      <workItem from="1586265584545" duration="1400000" />
+      <workItem from="1586269935923" duration="4953000" />
+      <workItem from="1586361438379" duration="7121000" />
+      <workItem from="1586445619054" duration="8347000" />
+      <workItem from="1586535460233" duration="2462000" />
+      <workItem from="1586610604446" duration="5585000" />
+      <workItem from="1586620340725" duration="3000" />
+      <workItem from="1586715750195" duration="2391000" />
+      <workItem from="1586718584741" duration="316000" />
+      <workItem from="1586795155038" duration="1113000" />
+      <workItem from="1586881612680" duration="4768000" />
+      <workItem from="1586960723822" duration="980000" />
+      <workItem from="1586971829432" duration="2778000" />
+      <workItem from="1587043172926" duration="5857000" />
+      <workItem from="1587056212161" duration="633000" />
+      <workItem from="1587196535576" duration="4992000" />
+      <workItem from="1587221280379" duration="5965000" />
+      <workItem from="1587290385363" duration="792000" />
+      <workItem from="1587305324712" duration="715000" />
+      <workItem from="1587313026696" duration="3345000" />
+      <workItem from="1587391178419" duration="4000" />
+      <workItem from="1587847021384" duration="1420000" />
+      <workItem from="1587849653671" duration="225000" />
+      <workItem from="1587887659766" duration="40000" />
+      <workItem from="1587931719898" duration="2950000" />
+      <workItem from="1588172965604" duration="1411000" />
+      <workItem from="1588182333168" duration="223000" />
+      <workItem from="1588184319136" duration="403000" />
+      <workItem from="1588321181274" duration="6319000" />
+      <workItem from="1588418357270" duration="8869000" />
+      <workItem from="1588445174160" duration="22000" />
+      <workItem from="1588519421002" duration="6457000" />
+      <workItem from="1588601479250" duration="2285000" />
+      <workItem from="1588622302829" duration="5000" />
+      <workItem from="1588876299688" duration="23000" />
+      <workItem from="1588876383606" duration="23000" />
+      <workItem from="1588876959141" duration="19000" />
+      <workItem from="1588876996976" duration="7000" />
+      <workItem from="1588879022075" duration="9000" />
+      <workItem from="1588879042959" duration="6000" />
+      <workItem from="1588879159714" duration="7000" />
+      <workItem from="1588879235131" duration="20000" />
+      <workItem from="1588879268149" duration="2000" />
+      <workItem from="1588879325969" duration="8000" />
     </task>
     <servers />
   </component>
@@ -41,9 +313,180 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="28" key="new project wizard" timestamp="1581354434535">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="238" y="129" key="#Project_Structure" timestamp="1588184356995">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
+    <state x="238" y="128" key="#Project_Structure/0.23.1440.805@0.23.1440.805" timestamp="1586881782385" />
+    <state x="238" y="129" key="#Project_Structure/0.23.1440.810@0.23.1440.810" timestamp="1588184356995" />
+    <state x="238" y="129" key="#Project_Structure/0.23.1440.812@0.23.1440.812" timestamp="1581452132433" />
+    <state x="238" y="129" key="#Project_Structure/0.23.1440.815@0.23.1440.815" timestamp="1585753903800" />
+    <state x="238" y="129" key="#Project_Structure/0.23.1440.817@0.23.1440.817" timestamp="1582226801779" />
+    <state x="238" y="130" key="#Project_Structure/0.23.1440.821@0.23.1440.821" timestamp="1583052881222" />
+    <state x="100" y="123" width="1240" height="615" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582051588580">
+      <screen x="0" y="23" width="1440" height="817" />
+    </state>
+    <state x="100" y="123" width="1240" height="615" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.817@0.23.1440.817" timestamp="1582051588580" />
+    <state x="580" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1588535089495">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="580" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582314188856" />
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581766829590" />
+    <state x="580" y="210" key="#com.intellij.ide.util.MemberChooser/0.23.1440.805@0.23.1440.805" timestamp="1587314860020" />
+    <state x="580" y="219" key="#com.intellij.ide.util.MemberChooser/0.23.1440.807@0.23.1440.807" timestamp="1586191972866" />
+    <state x="580" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1588535089495" />
+    <state x="580" y="217" key="#com.intellij.ide.util.MemberChooser/0.23.1440.812@0.23.1440.812" timestamp="1588437607554" />
+    <state x="580" y="222" key="#com.intellij.ide.util.MemberChooser/0.23.1440.815@0.23.1440.815" timestamp="1582319011694" />
+    <state x="580" y="222" key="#com.intellij.ide.util.MemberChooser/0.23.1440.817@0.23.1440.817" timestamp="1582037871023" />
+    <state x="580" y="223" key="#com.intellij.ide.util.MemberChooser/0.23.1440.821@0.23.1440.821" timestamp="1583053198482" />
+    <state x="537" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582042875332">
+      <screen x="0" y="23" width="1440" height="817" />
+    </state>
+    <state x="537" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.817@0.23.1440.817" timestamp="1582042875332" />
+    <state width="1398" height="99" key="GridCell.Tab.0.bottom" timestamp="1588607192478">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587937493557" />
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581790454620" />
+    <state width="1398" height="437" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1587316475137" />
+    <state width="1398" height="56" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1588539720277" />
+    <state width="1398" height="116" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
+    <state width="1398" height="96" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588601999004" />
+    <state width="1398" height="99" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1588607192478" />
+    <state width="1398" height="99" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1588604859198" />
+    <state width="1398" height="376" key="GridCell.Tab.0.bottom/0.23.1440.817@0.23.1440.817" timestamp="1582746737041" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1583061229342" />
+    <state width="1398" height="288" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1582478538344" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1581715435034" />
+    <state width="1398" height="99" key="GridCell.Tab.0.center" timestamp="1588607192477">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587937493556" />
+    <state width="1878" height="260" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581790454617" />
+    <state width="1398" height="437" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1587316475136" />
+    <state width="1398" height="56" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1588539720276" />
+    <state width="1398" height="116" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
+    <state width="1398" height="96" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588601999003" />
+    <state width="1398" height="99" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1588607192477" />
+    <state width="1398" height="99" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1588604859197" />
+    <state width="1398" height="376" key="GridCell.Tab.0.center/0.23.1440.817@0.23.1440.817" timestamp="1582746737040" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1583061229341" />
+    <state width="1398" height="288" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1582478538343" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1581715435034" />
+    <state width="1398" height="99" key="GridCell.Tab.0.left" timestamp="1588607192476">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587937493555" />
+    <state width="1878" height="260" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581790454616" />
+    <state width="1398" height="437" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1587316475135" />
+    <state width="1398" height="56" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1588539720275" />
+    <state width="1398" height="116" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1588537850464" />
+    <state width="1398" height="96" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588601999003" />
+    <state width="1398" height="99" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1588607192476" />
+    <state width="1398" height="99" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1588604859196" />
+    <state width="1398" height="376" key="GridCell.Tab.0.left/0.23.1440.817@0.23.1440.817" timestamp="1582746737039" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1583061229341" />
+    <state width="1398" height="288" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1582478538343" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1581715435033" />
+    <state width="1398" height="99" key="GridCell.Tab.0.right" timestamp="1588607192477">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587937493557" />
+    <state width="1878" height="260" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581790454619" />
+    <state width="1398" height="437" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1587316475137" />
+    <state width="1398" height="56" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1588539720276" />
+    <state width="1398" height="116" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
+    <state width="1398" height="96" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1588601999004" />
+    <state width="1398" height="99" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1588607192477" />
+    <state width="1398" height="99" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1588604859197" />
+    <state width="1398" height="376" key="GridCell.Tab.0.right/0.23.1440.817@0.23.1440.817" timestamp="1582746737040" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1583061229342" />
+    <state width="1398" height="288" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1582478538344" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1581715435034" />
+    <state width="1398" height="56" key="GridCell.Tab.1.bottom" timestamp="1588539720279">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.1.bottom/0.23.1440.805@0.23.1440.805" timestamp="1586803764710" />
+    <state width="1398" height="56" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1588539720279" />
+    <state width="1398" height="56" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1588537198917" />
+    <state width="1398" height="112" key="GridCell.Tab.1.bottom/0.23.1440.813@0.23.1440.813" timestamp="1588441584051" />
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom/0.23.1440.815@0.23.1440.815" timestamp="1582131656621" />
+    <state width="1398" height="376" key="GridCell.Tab.1.bottom/0.23.1440.817@0.23.1440.817" timestamp="1582746737043" />
+    <state width="1398" height="156" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1583061083525" />
+    <state width="1398" height="56" key="GridCell.Tab.1.center" timestamp="1588539720278">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.1.center/0.23.1440.805@0.23.1440.805" timestamp="1586803764709" />
+    <state width="1398" height="56" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1588539720278" />
+    <state width="1398" height="56" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1588537198917" />
+    <state width="1398" height="112" key="GridCell.Tab.1.center/0.23.1440.813@0.23.1440.813" timestamp="1588441584050" />
+    <state width="1398" height="260" key="GridCell.Tab.1.center/0.23.1440.815@0.23.1440.815" timestamp="1582131656620" />
+    <state width="1398" height="376" key="GridCell.Tab.1.center/0.23.1440.817@0.23.1440.817" timestamp="1582746737042" />
+    <state width="1398" height="156" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1583061083524" />
+    <state width="1398" height="56" key="GridCell.Tab.1.left" timestamp="1588539720277">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.1.left/0.23.1440.805@0.23.1440.805" timestamp="1586803764709" />
+    <state width="1398" height="56" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1588539720277" />
+    <state width="1398" height="56" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1588537198916" />
+    <state width="1398" height="112" key="GridCell.Tab.1.left/0.23.1440.813@0.23.1440.813" timestamp="1588441584050" />
+    <state width="1398" height="260" key="GridCell.Tab.1.left/0.23.1440.815@0.23.1440.815" timestamp="1582131656619" />
+    <state width="1398" height="376" key="GridCell.Tab.1.left/0.23.1440.817@0.23.1440.817" timestamp="1582746737041" />
+    <state width="1398" height="156" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1583061083524" />
+    <state width="1398" height="56" key="GridCell.Tab.1.right" timestamp="1588539720278">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.1.right/0.23.1440.805@0.23.1440.805" timestamp="1586803764710" />
+    <state width="1398" height="56" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1588539720278" />
+    <state width="1398" height="56" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1588537198917" />
+    <state width="1398" height="112" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1588441584051" />
+    <state width="1398" height="260" key="GridCell.Tab.1.right/0.23.1440.815@0.23.1440.815" timestamp="1582131656620" />
+    <state width="1398" height="376" key="GridCell.Tab.1.right/0.23.1440.817@0.23.1440.817" timestamp="1582746737042" />
+    <state width="1398" height="156" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1583061083525" />
+    <state x="458" y="70" key="SettingsEditor" timestamp="1582741760052">
+      <screen x="0" y="23" width="1440" height="817" />
+    </state>
+    <state x="458" y="70" key="SettingsEditor/0.23.1440.817@0.23.1440.817" timestamp="1582741760052" />
+    <state x="317" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1588879021741">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="317" y="303" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581847952419" />
+    <state x="423" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581790236912" />
+    <state x="317" y="295" key="com.intellij.ide.util.TipDialog/0.23.1440.805@0.23.1440.805" timestamp="1588879021741" />
+    <state x="317" y="295" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1588172965742" />
+    <state x="317" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1588622302802" />
+    <state x="317" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1588601479219" />
+    <state x="317" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1587931719681" />
+    <state x="317" y="297" key="com.intellij.ide.util.TipDialog/0.23.1440.815@0.23.1440.815" timestamp="1582817560356" />
+    <state x="317" y="298" key="com.intellij.ide.util.TipDialog/0.23.1440.817@0.23.1440.817" timestamp="1585753500428" />
+    <state x="317" y="299" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1583052867235" />
+    <state x="423" y="352" key="com.intellij.ide.util.TipDialog/0.23.1920.979@0.23.1920.979" timestamp="1581691136976" />
+    <state x="509" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586278084590">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="509" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.807@0.23.1440.807" timestamp="1586278084590" />
+    <state x="962" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586463241014">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="962" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.805@0.23.1440.805" timestamp="1586463241014" />
+    <state x="21" y="23" key="new project wizard" timestamp="1588173039770">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="133" y="42" key="new project wizard/0.23.1440.805@0.23.1440.805" timestamp="1586881725568" />
+    <state x="21" y="23" key="new project wizard/0.23.1440.807@0.23.1440.807" timestamp="1588173039770" />
+    <state x="221" y="35" key="new project wizard/0.23.1440.810@0.23.1440.810" timestamp="1587847095679" />
     <state x="0" y="28" key="new project wizard/0.23.1440.812@0.23.1440.812" timestamp="1581354434535" />
+    <state x="152" y="23" key="new project wizard/0.23.1440.815@0.23.1440.815" timestamp="1585753615035" />
+    <state x="160" y="23" key="new project wizard/0.23.1440.817@0.23.1440.817" timestamp="1582741179299" />
+    <state x="632" y="53" key="refactoring.ChangeSignatureDialog" timestamp="1586974086260">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="632" y="53" key="refactoring.ChangeSignatureDialog/0.23.1440.807@0.23.1440.807" timestamp="1586974086260" />
+    <state x="632" y="53" key="refactoring.ChangeSignatureDialog/0.23.1440.815@0.23.1440.815" timestamp="1582318952702" />
+    <state x="468" y="162" width="670" height="667" key="search.everywhere.popup" timestamp="1587228812140">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="468" y="162" width="670" height="667" key="search.everywhere.popup/0.23.1440.805@0.23.1440.805" timestamp="1587228812140" />
+    <state x="468" y="164" width="670" height="676" key="search.everywhere.popup/0.23.1440.815@0.23.1440.815" timestamp="1582565683101" />
+    <state x="468" y="164" width="670" height="676" key="search.everywhere.popup/0.23.1440.817@0.23.1440.817" timestamp="1582741756769" />
   </component>
 </project>

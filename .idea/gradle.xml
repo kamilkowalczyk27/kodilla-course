@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -9,10 +10,29 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/kodilla-exception" />
+            <option value="$PROJECT_DIR$/kodilla-good-patterns" />
+            <option value="$PROJECT_DIR$/kodilla-hibernate" />
+            <option value="$PROJECT_DIR$/kodilla-jdbc" />
+            <option value="$PROJECT_DIR$/kodilla-patterns" />
+            <option value="$PROJECT_DIR$/kodilla-spring" />
+            <option value="$PROJECT_DIR$/kodilla-sprong-intro" />
+            <option value="$PROJECT_DIR$/kodilla-stream" />
             <option value="$PROJECT_DIR$/kodilla-testing" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-spring-web" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/6.1.1/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kodilla-spring-web" />
+          </set>
+        </option>
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
