@@ -4,6 +4,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
+
 @NamedNativeQuery(
         name = "Company.searchCompany",
         query = "SELECT * FROM COMPANIES " + " WHERE substring(COMPANY_NAME,1,3) LIKE :COMPANY_NAME ",
@@ -11,7 +12,7 @@ import java.util.List;
 )
 @NamedQuery(
         name = "Company.searchCompanyByPart",
-        query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT ('%', :COMPANY_NAME, '%')"
+        query = "FROM Company WHERE COMPANY_NAME LIKE CONCAT('%',:COMPANY_NAME,'%')"
 )
 @Entity
 @Table(name = "COMPANIES")
