@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005e6255-9832-4379-8ff6-54b58d2dc910" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/kodilla-patterns2">
           <activation />
         </task>
         <projects_view>
@@ -92,53 +89,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TaxiOrderTestSuite">
-    <configuration name="FacadeTestSuite.testGetCompanyByPart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.manytomany.facade.FacadeTestSuite.testGetCompanyByPart&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-hibernate:cleanTest" />
-            <option value=":kodilla-hibernate:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FacadeTestSuite.testPartialCompanyNameSearching" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.hibernate.manytomany.facade.FacadeTestSuite.testPartialCompanyNameSearching&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-hibernate:cleanTest" />
-            <option value=":kodilla-hibernate:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TaxiOrderTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PizzaOrderTestSuite">
+    <configuration name="PizzaOrderTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,12 +110,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PizzaOrderTestSuite.testBasicPizzaOrderWithAllExtraAdditivesGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite.testBasicTaxiOrderGetCost&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite.testBasicPizzaOrderWithAllExtraAdditivesGetCost&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -173,12 +130,52 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PizzaOrderTestSuite.testBasicPizzaOrderWithAllExtraAdditivesGetDescription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.taxiportal.TaxiOrderTestSuite.testBasicTaxiOrderGetDescription&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite.testBasicPizzaOrderWithAllExtraAdditivesGetDescription&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PizzaOrderTestSuite.testBasicPizzaOrderWithExtraHamAndExtraCheeseGetDescription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite.testBasicPizzaOrderWithExtraHamAndExtraCheeseGetDescription&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PizzaOrderTestSuite.testBasicPizzaOrderWithExtraHamGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite.testBasicPizzaOrderWithExtraHamGetCost&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -223,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TaxiOrderTestSuite" />
-        <item itemvalue="Gradle.TaxiOrderTestSuite.testBasicTaxiOrderGetCost" />
-        <item itemvalue="Gradle.TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" />
-        <item itemvalue="Gradle.FacadeTestSuite.testPartialCompanyNameSearching" />
-        <item itemvalue="Gradle.FacadeTestSuite.testGetCompanyByPart" />
+        <item itemvalue="Gradle.PizzaOrderTestSuite" />
+        <item itemvalue="Gradle.PizzaOrderTestSuite.testBasicPizzaOrderWithAllExtraAdditivesGetCost" />
+        <item itemvalue="Gradle.PizzaOrderTestSuite.testBasicPizzaOrderWithAllExtraAdditivesGetDescription" />
+        <item itemvalue="Gradle.PizzaOrderTestSuite.testBasicPizzaOrderWithExtraHamAndExtraCheeseGetDescription" />
+        <item itemvalue="Gradle.PizzaOrderTestSuite.testBasicPizzaOrderWithExtraHamGetCost" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +341,7 @@
       <workItem from="1588879325969" duration="8000" />
       <workItem from="1592341278312" duration="107000" />
       <workItem from="1592401248839" duration="9993000" />
-      <workItem from="1592493483590" duration="5752000" />
+      <workItem from="1592493483590" duration="10891000" />
     </task>
     <servers />
   </component>
@@ -358,53 +355,54 @@
     <state x="238" y="128" key="#Project_Structure/0.23.1440.805@0.23.1440.805" timestamp="1586881782385" />
     <state x="238" y="129" key="#Project_Structure/0.23.1440.810@0.23.1440.810" timestamp="1588184356995" />
     <state x="238" y="129" key="#Project_Structure/0.23.1440.815@0.23.1440.815" timestamp="1585753903800" />
-    <state x="580" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1592497693866">
+    <state x="580" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1592508202301">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="580" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592402852608" />
-    <state x="580" y="210" key="#com.intellij.ide.util.MemberChooser/0.23.1440.805@0.23.1440.805" timestamp="1592497693866" />
+    <state x="580" y="210" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1592506287091" />
+    <state x="580" y="210" key="#com.intellij.ide.util.MemberChooser/0.23.1440.805@0.23.1440.805" timestamp="1592508202301" />
     <state x="580" y="219" key="#com.intellij.ide.util.MemberChooser/0.23.1440.807@0.23.1440.807" timestamp="1586191972866" />
     <state x="580" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1588535089495" />
     <state x="580" y="217" key="#com.intellij.ide.util.MemberChooser/0.23.1440.812@0.23.1440.812" timestamp="1588437607554" />
-    <state width="1398" height="76" key="GridCell.Tab.0.bottom" timestamp="1592501020665">
+    <state width="1398" height="137" key="GridCell.Tab.0.bottom" timestamp="1592509033430">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587937493557" />
-    <state width="1398" height="76" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1592501020665" />
-    <state width="1398" height="437" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1587316475137" />
+    <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1592509033430" />
+    <state width="1398" height="138" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1592507853526" />
     <state width="1398" height="56" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1588539720277" />
     <state width="1398" height="116" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
     <state width="1398" height="96" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588601999004" />
     <state width="1398" height="99" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1588607192478" />
     <state width="1398" height="99" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1588604859198" />
-    <state width="1398" height="76" key="GridCell.Tab.0.center" timestamp="1592501020664">
+    <state width="1398" height="137" key="GridCell.Tab.0.center" timestamp="1592509033429">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587937493556" />
-    <state width="1398" height="76" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1592501020664" />
-    <state width="1398" height="437" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1587316475136" />
+    <state width="1398" height="137" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1592509033429" />
+    <state width="1398" height="138" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1592507853525" />
     <state width="1398" height="56" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1588539720276" />
     <state width="1398" height="116" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
     <state width="1398" height="96" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588601999003" />
     <state width="1398" height="99" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1588607192477" />
     <state width="1398" height="99" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1588604859197" />
-    <state width="1398" height="76" key="GridCell.Tab.0.left" timestamp="1592501020664">
+    <state width="1398" height="137" key="GridCell.Tab.0.left" timestamp="1592509033428">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587937493555" />
-    <state width="1398" height="76" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1592501020664" />
-    <state width="1398" height="437" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1587316475135" />
+    <state width="1398" height="137" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1592509033428" />
+    <state width="1398" height="138" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1592507853525" />
     <state width="1398" height="56" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1588539720275" />
     <state width="1398" height="116" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1588537850464" />
     <state width="1398" height="96" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588601999003" />
     <state width="1398" height="99" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1588607192476" />
     <state width="1398" height="99" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1588604859196" />
-    <state width="1398" height="76" key="GridCell.Tab.0.right" timestamp="1592501020665">
+    <state width="1398" height="137" key="GridCell.Tab.0.right" timestamp="1592509033429">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587937493557" />
-    <state width="1398" height="76" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1592501020665" />
-    <state width="1398" height="437" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1587316475137" />
+    <state width="1398" height="137" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1592509033429" />
+    <state width="1398" height="138" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1592507853526" />
     <state width="1398" height="56" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1588539720276" />
     <state width="1398" height="116" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
     <state width="1398" height="96" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1588601999004" />
