@@ -1,9 +1,5 @@
 package com.kodilla.patterns2.observer.forum;
 
-import com.kodilla.patterns2.obderver.forum.ForumTopic;
-import com.kodilla.patterns2.obderver.forum.ForumUser;
-import com.kodilla.patterns2.obderver.forum.JavaHelpForumTopic;
-import com.kodilla.patterns2.obderver.forum.JavaToolsForumTopic;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
