@@ -89,27 +89,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MentorForumTestSuite.testNewExercisesToCheck">
-    <configuration name="CalculatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.aop.calculator.CalculatorTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.ShopServiceTestSuite.testShopFacade">
     <configuration name="ForumUserTestSuite.testUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,6 +116,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.observer.homework.MentorForumTestSuite.testNewExercisesToCheck&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SalaryAdapterTestSuite.testTotalSalary" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-patterns2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.adapter.company.SalaryAdapterTestSuite.testTotalSalary&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -220,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShopServiceTestSuite.testShopFacade" />
+        <item itemvalue="Gradle.SalaryAdapterTestSuite.testTotalSalary" />
         <item itemvalue="Gradle.MentorForumTestSuite.testNewExercisesToCheck" />
         <item itemvalue="Gradle.ForumUserTestSuite.testUpdate" />
-        <item itemvalue="Gradle.ShopServiceTestSuite.testShopFacade" />
         <item itemvalue="Gradle.ShopServiceTestSuite" />
-        <item itemvalue="Gradle.CalculatorTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +344,9 @@
       <workItem from="1592493483590" duration="11130000" />
       <workItem from="1592574188064" duration="7359000" />
       <workItem from="1592626383405" duration="3350000" />
-      <workItem from="1592655481264" duration="5236000" />
+      <workItem from="1592655481264" duration="5472000" />
+      <workItem from="1592812030643" duration="3169000" />
+      <workItem from="1592825117231" duration="2403000" />
     </task>
     <servers />
   </component>
@@ -367,48 +369,48 @@
     <state x="580" y="219" key="#com.intellij.ide.util.MemberChooser/0.23.1440.807@0.23.1440.807" timestamp="1586191972866" />
     <state x="580" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1588535089495" />
     <state x="580" y="217" key="#com.intellij.ide.util.MemberChooser/0.23.1440.812@0.23.1440.812" timestamp="1588437607554" />
-    <state x="692" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592657330867">
+    <state x="587" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592818750616">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="692" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.803@0.23.1440.803" timestamp="1592657330867" />
-    <state width="1398" height="464" key="GridCell.Tab.0.bottom" timestamp="1592660821912">
+    <state x="587" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.803@0.23.1440.803" timestamp="1592818750616" />
+    <state width="1398" height="153" key="GridCell.Tab.0.bottom" timestamp="1592832427430">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587937493557" />
-    <state width="1398" height="464" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1592660821912" />
+    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1592832427430" />
     <state width="1398" height="615" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1592583150584" />
     <state width="1398" height="56" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1588539720277" />
     <state width="1398" height="116" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
     <state width="1398" height="96" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588601999004" />
     <state width="1398" height="99" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1588607192478" />
     <state width="1398" height="99" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1588604859198" />
-    <state width="1398" height="464" key="GridCell.Tab.0.center" timestamp="1592660821911">
+    <state width="1398" height="153" key="GridCell.Tab.0.center" timestamp="1592832427429">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587937493556" />
-    <state width="1398" height="464" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1592660821911" />
+    <state width="1398" height="153" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1592832427429" />
     <state width="1398" height="615" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1592583150584" />
     <state width="1398" height="56" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1588539720276" />
     <state width="1398" height="116" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
     <state width="1398" height="96" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588601999003" />
     <state width="1398" height="99" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1588607192477" />
     <state width="1398" height="99" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1588604859197" />
-    <state width="1398" height="464" key="GridCell.Tab.0.left" timestamp="1592660821911">
+    <state width="1398" height="153" key="GridCell.Tab.0.left" timestamp="1592832427429">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587937493555" />
-    <state width="1398" height="464" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1592660821911" />
+    <state width="1398" height="153" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1592832427429" />
     <state width="1398" height="615" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1592583150583" />
     <state width="1398" height="56" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1588539720275" />
     <state width="1398" height="116" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1588537850464" />
     <state width="1398" height="96" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588601999003" />
     <state width="1398" height="99" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1588607192476" />
     <state width="1398" height="99" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1588604859196" />
-    <state width="1398" height="464" key="GridCell.Tab.0.right" timestamp="1592660821912">
+    <state width="1398" height="153" key="GridCell.Tab.0.right" timestamp="1592832427430">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587937493557" />
-    <state width="1398" height="464" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1592660821912" />
+    <state width="1398" height="153" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1592832427430" />
     <state width="1398" height="615" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1592583150584" />
     <state width="1398" height="56" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1588539720276" />
     <state width="1398" height="116" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1588537850465" />
@@ -443,10 +445,10 @@
     <state width="1398" height="56" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1588539720278" />
     <state width="1398" height="56" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1588537198917" />
     <state width="1398" height="112" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1588441584051" />
-    <state x="317" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1592655481420">
+    <state x="317" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1592825118133">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="317" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1592655481420" />
+    <state x="317" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1592825118133" />
     <state x="317" y="295" key="com.intellij.ide.util.TipDialog/0.23.1440.805@0.23.1440.805" timestamp="1592574188382" />
     <state x="317" y="295" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1588172965742" />
     <state x="317" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1588622302802" />
