@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005e6255-9832-4379-8ff6-54b58d2dc910" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdaptee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,6 +351,7 @@
       <workItem from="1592812030643" duration="3169000" />
       <workItem from="1592825117231" duration="2731000" />
       <workItem from="1592847392292" duration="5426000" />
+      <workItem from="1592854479906" duration="280000" />
     </task>
     <servers />
   </component>
