@@ -11,5 +11,7 @@ public class SalaryAdaptee implements SalaryProcessor {
     public BigDecimal calculateSalaries(List<Employee> employees){
         CompanySalaryProcessor theProcessor = new CompanySalaryProcessor();
         return theProcessor.calculateSalaries(employees);
+
+
     }
 }
