@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005e6255-9832-4379-8ff6-54b58d2dc910" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdaptee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,6 +349,7 @@
       <workItem from="1592825117231" duration="2731000" />
       <workItem from="1592847392292" duration="5426000" />
       <workItem from="1592854479906" duration="280000" />
+      <workItem from="1592857054931" duration="173000" />
     </task>
     <servers />
   </component>
@@ -454,12 +452,12 @@
     <state width="1398" height="56" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1588539720278" />
     <state width="1398" height="56" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1588537198917" />
     <state width="1398" height="112" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1588441584051" />
-    <state x="317" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1592854479150">
-      <screen x="0" y="23" width="1440" height="805" />
+    <state x="317" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1592857056247">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state x="317" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1592847393421" />
     <state x="317" y="295" key="com.intellij.ide.util.TipDialog/0.23.1440.805@0.23.1440.805" timestamp="1592854479150" />
-    <state x="317" y="295" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1588172965742" />
+    <state x="317" y="295" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1592857056247" />
     <state x="317" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1588622302802" />
     <state x="317" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1588601479219" />
     <state x="317" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1587931719681" />
