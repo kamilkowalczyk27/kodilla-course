@@ -11,10 +11,10 @@ public class DbManager {
 
     private DbManager() throws SQLException {
         Properties connectionProps = new Properties();
-        connectionProps.put("user", "kodillauser");
-        connectionProps.put("password", "1234");
+        connectionProps.put("user", "kamil1");
+        connectionProps.put("password", "12345");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/kodillacourse?serverTimezone=Europe/Warsaw" +
+                "jdbc:mysql://localhost:3306/kamil?serverTimezone=Europe/Warsaw" +
                         "&useSSL=False",
                 connectionProps);
     }
