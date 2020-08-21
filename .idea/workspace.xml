@@ -99,7 +99,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GoogleTestingApp">
+  <component name="RunManager" selected="Gradle.kodilla-course [dependencies]">
     <configuration name="EBayTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.ebay.EBayTestingApp" />
       <module name="kodilla-course.kodilla-testing2.main" />
@@ -164,23 +164,23 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="testLoopAndConditionalBreakpoints.testLoop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="kodilla-course [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.loop.testLoopAndConditionalBreakpoints.testLoop&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-testing:test" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="KodillaHibernateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -213,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.kodilla-course [dependencies]" />
         <item itemvalue="Application.EBayTestingApp" />
         <item itemvalue="Application.GoogleTestingApp" />
         <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
         <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
-        <item itemvalue="Gradle.testLoopAndConditionalBreakpoints.testLoop" />
       </list>
     </recent_temporary>
   </component>
