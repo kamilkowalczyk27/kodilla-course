@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005e6255-9832-4379-8ff6-54b58d2dc910" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +96,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.kodilla-course [dependencies]">
+  <component name="RunManager" selected="Application.GoogleTestingApp">
     <configuration name="EBayTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.ebay.EBayTestingApp" />
       <module name="kodilla-course.kodilla-testing2.main" />
@@ -330,12 +336,28 @@
       <workItem from="1598030859421" duration="1150000" />
       <workItem from="1598032111603" duration="618000" />
       <workItem from="1598032802512" duration="1983000" />
-      <workItem from="1598034795748" duration="3591000" />
+      <workItem from="1598034795748" duration="4730000" />
+      <workItem from="1598082902148" duration="465000" />
+      <workItem from="1598083579174" duration="175000" />
+      <workItem from="1598083936248" duration="31000" />
+      <workItem from="1598084102922" duration="322000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Module 31.2">
+      <created>1598039082453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598039082453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Module 31.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Module 31.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="760" y="274" key="#Project_Structure" timestamp="1598031437980">
@@ -356,28 +378,32 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="587" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.803@0.23.1440.803" timestamp="1592818750616" />
-    <state width="2517" height="323" key="GridCell.Tab.0.bottom" timestamp="1598038628780">
+    <state x="865" y="268" key="CommitChangelistDialog2" timestamp="1598039082089">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="323" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598038628780" />
+    <state x="865" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1598039082089" />
+    <state width="2517" height="346" key="GridCell.Tab.0.bottom" timestamp="1598084424619">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="346" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598084424619" />
     <state width="1398" height="437" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1592854161357" />
     <state width="1398" height="437" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1592854452600" />
-    <state width="2517" height="323" key="GridCell.Tab.0.center" timestamp="1598038628780">
+    <state width="2517" height="346" key="GridCell.Tab.0.center" timestamp="1598084424619">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="323" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598038628780" />
+    <state width="2517" height="346" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598084424619" />
     <state width="1398" height="437" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1592854161356" />
     <state width="1398" height="437" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1592854452598" />
-    <state width="2517" height="323" key="GridCell.Tab.0.left" timestamp="1598038628780">
+    <state width="2517" height="346" key="GridCell.Tab.0.left" timestamp="1598084424619">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="323" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598038628780" />
+    <state width="2517" height="346" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598084424619" />
     <state width="1398" height="437" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1592854161355" />
     <state width="1398" height="437" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1592854452597" />
-    <state width="2517" height="323" key="GridCell.Tab.0.right" timestamp="1598038628780">
+    <state width="2517" height="346" key="GridCell.Tab.0.right" timestamp="1598084424619">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="323" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598038628780" />
+    <state width="2517" height="346" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598084424619" />
     <state width="1398" height="437" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1592854161356" />
     <state width="1398" height="437" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1592854452599" />
     <state width="1741" height="401" key="GridCell.Tab.1.bottom" timestamp="1598032009658">
@@ -396,6 +422,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1741" height="401" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598032009658" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1598039107087">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598039107087" />
     <state x="317" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1592857056247">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
