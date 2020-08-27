@@ -106,8 +106,6 @@ public class CrudAppTestSuite {
     private void deleteTaskFromCrud(String taskname) throws InterruptedException {
         driver.navigate().refresh();
 
-        while (!driver.findElement(By.xpath("//select[1]")).isDisplayed()) ;
-
         driver.findElements(By.xpath("//form[@class=\"datatable__row\"]")).stream()
                 .filter(anyForm ->
                         anyForm.findElement(By.xpath(".//p[@class=\"datatable__field-value\"]"))
