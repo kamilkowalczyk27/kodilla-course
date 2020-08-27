@@ -122,5 +122,4 @@ public class CrudAppTestSuite {
     public void cleanUpAfterTest() {
         driver.close();
     }
-
 }
