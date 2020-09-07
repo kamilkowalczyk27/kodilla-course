@@ -47,7 +47,8 @@ public class CrudAppTestSuite {
     public void shouldCreateTrelloCardCrudAppTestTask() throws InterruptedException {
         String taskName = createCrudAppTestTask();
         sendTestTaskToTrello(taskName);
-        //Assert.assertTrue(checkTaskExistsInTrello(taskName));
+        Assert.assertTrue(checkTaskExistsInTrello(taskName));
+        deleteTaskFromCrud(taskName);
     }
 
     private void sendTestTaskToTrello(String taskName) throws InterruptedException {
@@ -73,20 +74,22 @@ public class CrudAppTestSuite {
     }
 
     private boolean checkTaskExistsInTrello(String taskname) throws InterruptedException {
+
         final String TRELLO_URL = "https://trello.com/login";
         boolean result = false;
         WebDriver driverTrello = WebDriverConfig.getDriver(WebDriverConfig.CHROME);
         driverTrello.get(TRELLO_URL);
 
-        driverTrello.findElement(By.id("user")).sendKeys("kamilkowalczyk27");
+        driverTrello.findElement(By.id("user")).sendKeys("kamilkowalczyk27@o2.pl");
         driverTrello.findElement(By.id("password")).sendKeys("multisyncv720");
         driverTrello.findElement(By.id("login")).submit();
 
         Thread.sleep(5000);
 
         driverTrello.findElement(By.id("password")).sendKeys("multisyncv720");
-        driverTrello.findElement(By.id("login-submit")).submit();
+        Thread.sleep(5000);
 
+        driverTrello.findElement(By.xpath("//*[@id=\"login-submit\"]/span/span/span")).click();
         Thread.sleep(5000);
 
         driverTrello.findElements(By.xpath("//a[@class=\"board-tile\"]")).stream()
@@ -96,7 +99,7 @@ public class CrudAppTestSuite {
         Thread.sleep(5000);
 
         result = driverTrello.findElements(By.xpath("//span")).stream()
-                .anyMatch(theSpan ->theSpan.getText().equals(taskname));
+                .anyMatch(theSpan -> theSpan.getText().equals(taskname));
 
         driverTrello.close();
 
@@ -105,6 +108,8 @@ public class CrudAppTestSuite {
 
     private void deleteTaskFromCrud(String taskname) throws InterruptedException {
         driver.navigate().refresh();
+
+        Thread.sleep(2000);
 
         driver.findElements(By.xpath("//form[@class=\"datatable__row\"]")).stream()
                 .filter(anyForm ->

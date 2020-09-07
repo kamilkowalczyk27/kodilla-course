@@ -105,19 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EBayTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.ebay.EBayTestingApp" />
-      <module name="kodilla-course.kodilla-testing2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.testing2.ebay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FacebookTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.facebook.FacebookTestingApp" />
       <module name="kodilla-course.kodilla-testing2.main" />
@@ -137,6 +124,25 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.kodilla.testing2.crudapp.CrudAppTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-testing2:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CrudAppTestSuite.shouldCreateTrelloCardCrudAppTestTask" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing2.crudapp.CrudAppTestSuite.shouldCreateTrelloCardCrudAppTestTask&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -200,10 +206,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CrudAppTestSuite" />
+        <item itemvalue="Gradle.CrudAppTestSuite.shouldCreateTrelloCardCrudAppTestTask" />
         <item itemvalue="Application.FacebookTestingApp" />
         <item itemvalue="Application.CrudAppTestingApp" />
         <item itemvalue="Gradle.kodilla-course [dependencies]" />
-        <item itemvalue="Application.EBayTestingApp" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +341,9 @@
       <workItem from="1598366174766" duration="2890000" />
       <workItem from="1598371913944" duration="1096000" />
       <workItem from="1598459206773" duration="5068000" />
-      <workItem from="1598539127188" duration="777000" />
+      <workItem from="1598539127188" duration="1030000" />
+      <workItem from="1598621703648" duration="22000" />
+      <workItem from="1599489328287" duration="7967000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Module 31.2">
       <created>1598039082453</created>
@@ -344,7 +352,35 @@
       <option name="project" value="LOCAL" />
       <updated>1598039082453</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Module 31.2">
+      <created>1598540013089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598540013089</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding Module 31.4">
+      <created>1598540042371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598540042371</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding Module 31.4">
+      <created>1598540091640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598540091640</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding Module 31.4">
+      <created>1598540132247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598540132247</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +388,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Module 31.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Module 31.2" />
+    <MESSAGE value="Adding Module 31.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Module 31.4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="760" y="274" key="#Project_Structure" timestamp="1598031437980">
@@ -373,54 +410,54 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="587" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.803@0.23.1440.803" timestamp="1592818750616" />
-    <state x="865" y="268" key="CommitChangelistDialog2" timestamp="1598039082089">
+    <state x="865" y="268" key="CommitChangelistDialog2" timestamp="1598540131892">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="865" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1598039082089" />
-    <state width="2517" height="328" key="GridCell.Tab.0.bottom" timestamp="1598539902297">
+    <state x="865" y="268" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1598540131892" />
+    <state width="2517" height="514" key="GridCell.Tab.0.bottom" timestamp="1599504600077">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="328" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598539902297" />
+    <state width="2517" height="514" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599504600077" />
     <state width="1398" height="437" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1592854161357" />
     <state width="1398" height="437" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1592854452600" />
-    <state width="2517" height="328" key="GridCell.Tab.0.center" timestamp="1598539902297">
+    <state width="2517" height="514" key="GridCell.Tab.0.center" timestamp="1599504600077">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="328" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598539902297" />
+    <state width="2517" height="514" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599504600077" />
     <state width="1398" height="437" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1592854161356" />
     <state width="1398" height="437" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1592854452598" />
-    <state width="2517" height="328" key="GridCell.Tab.0.left" timestamp="1598539902297">
+    <state width="2517" height="514" key="GridCell.Tab.0.left" timestamp="1599504600077">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="328" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598539902297" />
+    <state width="2517" height="514" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599504600077" />
     <state width="1398" height="437" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1592854161355" />
     <state width="1398" height="437" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1592854452597" />
-    <state width="2517" height="328" key="GridCell.Tab.0.right" timestamp="1598539902297">
+    <state width="2517" height="514" key="GridCell.Tab.0.right" timestamp="1599504600077">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="328" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598539902297" />
+    <state width="2517" height="514" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599504600077" />
     <state width="1398" height="437" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1592854161356" />
     <state width="1398" height="437" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1592854452599" />
-    <state width="1741" height="401" key="GridCell.Tab.1.bottom" timestamp="1598032009658">
+    <state width="2517" height="514" key="GridCell.Tab.1.bottom" timestamp="1599504600077">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1741" height="401" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598032009658" />
-    <state width="1741" height="401" key="GridCell.Tab.1.center" timestamp="1598032009658">
+    <state width="2517" height="514" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599504600077" />
+    <state width="2517" height="514" key="GridCell.Tab.1.center" timestamp="1599504600077">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1741" height="401" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598032009658" />
-    <state width="1741" height="401" key="GridCell.Tab.1.left" timestamp="1598032009658">
+    <state width="2517" height="514" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599504600077" />
+    <state width="2517" height="514" key="GridCell.Tab.1.left" timestamp="1599504600077">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1741" height="401" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598032009658" />
-    <state width="1741" height="401" key="GridCell.Tab.1.right" timestamp="1598032009658">
+    <state width="2517" height="514" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599504600077" />
+    <state width="2517" height="514" key="GridCell.Tab.1.right" timestamp="1599504600077">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1741" height="401" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598032009658" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1598039107087">
+    <state width="2517" height="514" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599504600077" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1598540135963">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598039107087" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598540135963" />
     <state x="317" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1592857056247">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
