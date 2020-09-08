@@ -90,7 +90,7 @@ public class CrudAppTestSuite {
         Thread.sleep(5000);
 
         driverTrello.findElement(By.xpath("//*[@id=\"login-submit\"]/span/span/span")).click();
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 
         driverTrello.findElements(By.xpath("//a[@class=\"board-tile\"]")).stream()
                 .filter(aHref -> aHref.findElements(By.xpath(".//div[@title=\"Kodilla Application\"]")).size() > 0)
@@ -107,7 +107,10 @@ public class CrudAppTestSuite {
     }
 
     private void deleteTaskFromCrud(String taskname) throws InterruptedException {
+        driver.switchTo().alert().accept();
         driver.navigate().refresh();
+
+        while (!driver.findElement(By.xpath("//select[1]")).isDisplayed()) ;
 
         Thread.sleep(2000);
 
@@ -127,5 +130,4 @@ public class CrudAppTestSuite {
     public void cleanUpAfterTest() {
         driver.close();
     }
-
 }
